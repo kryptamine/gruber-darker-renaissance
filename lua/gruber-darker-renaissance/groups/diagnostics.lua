@@ -7,9 +7,10 @@ local M = {}
 function M.get(c, opts)
 	local groups = {
 		DiagnosticUnnecessary = "Comment",
+		DiagnosticDeprecated = { sp = c.diag.error, strikethrough = true },
 	}
 
-	for _, level in ipairs({ "Error", "Warn", "Info", "Hint" }) do
+	for _, level in ipairs({ "Error", "Warn", "Info", "Hint", "Ok" }) do
 		local color = c.diag[level:lower()]
 		groups["Diagnostic" .. level] = { fg = color, bold = opts.bold }
 		groups["DiagnosticSign" .. level] = { fg = color, reverse = opts.invert.signs }
