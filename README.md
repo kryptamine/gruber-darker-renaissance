@@ -154,7 +154,10 @@ Highlights are included for
 [trouble.nvim](https://github.com/folke/trouble.nvim),
 [vim-illuminate](https://github.com/RRethy/vim-illuminate) and
 [which-key.nvim](https://github.com/folke/which-key.nvim).
-Turn one off with `plugins = { name = false }`.
+Turn one off with `plugins = { name = false }`, `name` being its key in the
+defaults above. [oil.nvim](https://github.com/stevearc/oil.nvim) and
+[diffview.nvim](https://github.com/sindrets/diffview.nvim) need no groups: their
+defaults already follow the theme.
 
 For [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim), set
 `options = { theme = "gruber-darker-renaissance" }`.
