@@ -68,6 +68,7 @@ require("gruber-darker-renaissance").setup({
     fzf = true,
     gitsigns = true,
     leap = true,
+    mason = true,
     mini_icons = true,
     multicursor = true,
   },
@@ -106,6 +107,7 @@ Highlights are included for
 [fzf-lua](https://github.com/ibhagwan/fzf-lua),
 [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim),
 [leap.nvim](https://codeberg.org/andyg/leap.nvim),
+[mason.nvim](https://github.com/mason-org/mason.nvim),
 [mini.icons](https://github.com/nvim-mini/mini.icons) and
 [multicursor.nvim](https://github.com/jake-stewart/multicursor.nvim).
 Turn one off with `plugins = { name = false }`.

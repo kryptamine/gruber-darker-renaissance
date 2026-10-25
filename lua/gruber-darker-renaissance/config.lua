@@ -41,6 +41,7 @@ M.defaults = {
 		fzf = true,
 		gitsigns = true,
 		leap = true,
+		mason = true,
 		mini_icons = true,
 		multicursor = true,
 	},
