@@ -169,9 +169,14 @@ Contributor rules are in [AGENTS.md](AGENTS.md).
 
 ## Credits
 
+The palette comes from the [Gruber Darker][gruber-darker-theme] color theme for
+Emacs by Jason Blevins, a darker variant of the Gruber Dark theme for BBEdit by
+John Gruber, adapted for deftheme and extended by Alexey Kutepov a.k.a. rexim.
+
 These repositories were great knowledge sources and their
 inspiration helped immensely with the development of this plugin.
 
 - [blazkowolf/gruber-darker.nvim][gruber-darker-nvim]
 
+[gruber-darker-theme]: https://github.com/rexim/gruber-darker-theme
 [gruber-darker-nvim]: https://github.com/blazkowolf/gruber-darker.nvim
