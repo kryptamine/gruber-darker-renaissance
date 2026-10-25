@@ -46,7 +46,7 @@ fish_pager_color_selected_background --background=%s]]):format(
 		h(c.fg),
 		h(c.yellow),
 		h(c.syntax.keyword),
-		h(c.niagara),
+		h(c.fg),
 		h(c.quartz),
 		h(c.syntax.string),
 		h(c.syntax.punctuation),
