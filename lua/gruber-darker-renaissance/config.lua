@@ -59,6 +59,7 @@ M.defaults = {
 		notify = true,
 		nvim_tree = true,
 		rainbow_delimiters = true,
+		render_markdown = true,
 	},
 	on_colors = function() end,
 	on_highlights = function() end,

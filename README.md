@@ -86,6 +86,7 @@ require("gruber-darker-renaissance").setup({
     notify = true,
     nvim_tree = true,
     rainbow_delimiters = true,
+    render_markdown = true,
   },
   ---@param colors GruberDarkerRenaissanceColors
   on_colors = function(colors) end,
@@ -138,7 +139,8 @@ Highlights are included for
 [nvim-navic](https://github.com/SmiteshP/nvim-navic),
 [nvim-notify](https://github.com/rcarriga/nvim-notify),
 [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua),
-[rainbow-delimiters.nvim](https://github.com/HiPhish/rainbow-delimiters.nvim) and
+[rainbow-delimiters.nvim](https://github.com/HiPhish/rainbow-delimiters.nvim),
+[render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim) and
 [vim-illuminate](https://github.com/RRethy/vim-illuminate).
 Turn one off with `plugins = { name = false }`.
 

@@ -34,6 +34,7 @@ M.plugins = {
 	"notify",
 	"nvim_tree",
 	"rainbow_delimiters",
+	"render_markdown",
 }
 
 ---Collect all highlight groups
