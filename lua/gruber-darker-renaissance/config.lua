@@ -61,6 +61,7 @@ M.defaults = {
 		rainbow_delimiters = true,
 		render_markdown = true,
 		snacks = true,
+		telescope = true,
 	},
 	on_colors = function() end,
 	on_highlights = function() end,

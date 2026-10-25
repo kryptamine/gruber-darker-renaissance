@@ -36,6 +36,7 @@ M.plugins = {
 	"rainbow_delimiters",
 	"render_markdown",
 	"snacks",
+	"telescope",
 }
 
 ---Collect all highlight groups
