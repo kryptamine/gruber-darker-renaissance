@@ -37,6 +37,7 @@ M.plugins = {
 	"render_markdown",
 	"snacks",
 	"telescope",
+	"todo_comments",
 }
 
 ---Collect all highlight groups

@@ -89,6 +89,7 @@ require("gruber-darker-renaissance").setup({
     render_markdown = true,
     snacks = true,
     telescope = true,
+    todo_comments = true,
   },
   ---@param colors GruberDarkerRenaissanceColors
   on_colors = function(colors) end,
@@ -144,7 +145,8 @@ Highlights are included for
 [rainbow-delimiters.nvim](https://github.com/HiPhish/rainbow-delimiters.nvim),
 [render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim),
 [snacks.nvim](https://github.com/folke/snacks.nvim),
-[telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) and
+[telescope.nvim](https://github.com/nvim-telescope/telescope.nvim),
+[todo-comments.nvim](https://github.com/folke/todo-comments.nvim) and
 [vim-illuminate](https://github.com/RRethy/vim-illuminate).
 Turn one off with `plugins = { name = false }`.
 
