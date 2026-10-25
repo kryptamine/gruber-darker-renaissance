@@ -31,6 +31,7 @@ M.plugins = {
 	"neo_tree",
 	"neogit",
 	"noice",
+	"notify",
 }
 
 ---Collect all highlight groups
