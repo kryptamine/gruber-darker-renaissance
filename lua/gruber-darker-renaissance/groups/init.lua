@@ -16,6 +16,7 @@ M.plugins = {
 	"dap_ui",
 	"dashboard",
 	"fff",
+	"flash",
 	"fzf",
 	"gitsigns",
 	"leap",

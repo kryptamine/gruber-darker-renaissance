@@ -41,6 +41,7 @@ M.defaults = {
 		dap_ui = true,
 		dashboard = true,
 		fff = true,
+		flash = true,
 		fzf = true,
 		gitsigns = true,
 		leap = true,
