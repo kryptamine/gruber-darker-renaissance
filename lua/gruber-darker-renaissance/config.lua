@@ -46,6 +46,7 @@ M.defaults = {
 		gitsigns = true,
 		illuminate = true,
 		indent_blankline = true,
+		lazy = true,
 		leap = true,
 		mason = true,
 		mini_icons = true,

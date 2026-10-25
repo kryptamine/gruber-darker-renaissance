@@ -21,6 +21,7 @@ M.plugins = {
 	"gitsigns",
 	"illuminate",
 	"indent_blankline",
+	"lazy",
 	"leap",
 	"mason",
 	"mini_icons",
