@@ -2,19 +2,19 @@
 
 gui:
   theme:
-    activeBorderColor: ["#fbde55", bold]
+    activeBorderColor: ["#dfcb73", bold]
     # Panel titles take the border color, so this stays a readable gray
     inactiveBorderColor: ["#555555"]
-    searchingActiveBorderColor: ["#a7bbe3", bold]
-    optionsTextColor: ["#a7bbe3"]
+    searchingActiveBorderColor: ["#9aa8c4", bold]
+    optionsTextColor: ["#9aa8c4"]
     selectedLineBgColor: ["#1e1e1e"]
     inactiveViewSelectedLineBgColor: ["#181818"]
     cherryPickedCommitFgColor: ["#000000"]
-    cherryPickedCommitBgColor: ["#a7bbe3"]
+    cherryPickedCommitBgColor: ["#9aa8c4"]
     markedBaseCommitFgColor: ["#000000"]
-    markedBaseCommitBgColor: ["#fbde55"]
-    unstagedChangesColor: ["#e74e4e"]
-    defaultFgColor: ["#dcdcd6"]
+    markedBaseCommitBgColor: ["#dfcb73"]
+    unstagedChangesColor: ["#bc5350"]
+    defaultFgColor: ["#c8c8c4"]
     # Without this lazygit hashes each author to an arbitrary truecolor
     authorColors:
       "*": "#96a29c"

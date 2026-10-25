@@ -9,8 +9,8 @@ local M = {
 	ash = "#6e6a64",
 
 	-- Foreground, from base to brightest
-	fg = "#dcdcd6",
-	fg1 = "#f5f5f0",
+	fg = "#c8c8c4",
+	fg1 = "#e1e1dd",
 
 	-- Background, from darkest to lightest
 	bg = "#000000",
@@ -22,21 +22,21 @@ local M = {
 	bg4 = "#555555",
 
 	-- Accents
-	red = "#e74e4e",
+	red = "#bc5350",
 	red_light = "#f26063",
 	red_muted = "#732727",
 	red_darker = "#2a1516",
-	green = "#8fd069",
+	green = "#8ab771",
 	green_muted = "#476834",
 	green_darker = "#1b2e12",
-	yellow = "#fbde55",
+	yellow = "#dfcb73",
 	yellow_muted = "#7d6f2a",
 	yellow_dark = "#433b12",
 	yellow_darker = "#26230f",
 	brown = "#cc8c3c",
 	quartz = "#96a29c",
 	niagara_dark = "#6c7790",
-	niagara = "#a7bbe3",
+	niagara = "#9aa8c4",
 	niagara_light = "#bdd0f6",
 	wisteria = "#9e95c7",
 	match = "#2b293b",
