@@ -13,6 +13,7 @@ M.base = {
 M.plugins = {
 	"blink",
 	"cmp",
+	"dap_ui",
 	"fff",
 	"fzf",
 	"gitsigns",

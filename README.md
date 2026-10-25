@@ -65,6 +65,7 @@ require("gruber-darker-renaissance").setup({
   plugins = {
     blink = true,
     cmp = true,
+    dap_ui = true,
     fff = true,
     fzf = true,
     gitsigns = true,
@@ -110,8 +111,9 @@ Highlights are included for
 [leap.nvim](https://codeberg.org/andyg/leap.nvim),
 [mason.nvim](https://github.com/mason-org/mason.nvim),
 [mini.icons](https://github.com/nvim-mini/mini.icons),
-[multicursor.nvim](https://github.com/jake-stewart/multicursor.nvim) and
-[nvim-cmp](https://github.com/hrsh7th/nvim-cmp).
+[multicursor.nvim](https://github.com/jake-stewart/multicursor.nvim),
+[nvim-cmp](https://github.com/hrsh7th/nvim-cmp) and
+[nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui).
 Turn one off with `plugins = { name = false }`.
 
 Floats and the completion menu share the editor's black background, so they
