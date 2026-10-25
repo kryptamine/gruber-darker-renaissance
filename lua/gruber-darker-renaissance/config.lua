@@ -65,6 +65,7 @@ M.defaults = {
 		todo_comments = true,
 		treesitter_context = true,
 		trouble = true,
+		which_key = true,
 	},
 	on_colors = function() end,
 	on_highlights = function() end,

@@ -92,6 +92,7 @@ require("gruber-darker-renaissance").setup({
     todo_comments = true,
     treesitter_context = true,
     trouble = true,
+    which_key = true,
   },
   ---@param colors GruberDarkerRenaissanceColors
   on_colors = function(colors) end,
@@ -150,8 +151,9 @@ Highlights are included for
 [snacks.nvim](https://github.com/folke/snacks.nvim),
 [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim),
 [todo-comments.nvim](https://github.com/folke/todo-comments.nvim),
-[trouble.nvim](https://github.com/folke/trouble.nvim) and
-[vim-illuminate](https://github.com/RRethy/vim-illuminate).
+[trouble.nvim](https://github.com/folke/trouble.nvim),
+[vim-illuminate](https://github.com/RRethy/vim-illuminate) and
+[which-key.nvim](https://github.com/folke/which-key.nvim).
 Turn one off with `plugins = { name = false }`.
 
 Floats and the completion menu share the editor's black background, so they
