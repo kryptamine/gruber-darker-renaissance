@@ -112,6 +112,9 @@ With lazy.nvim that is `~/.local/share/nvim/lazy/gruber-darker-renaissance/extra
   `kitty.conf`.
 - lazygit: add `extras/lazygit/gruber-darker-renaissance.yml` to
   `LG_CONFIG_FILE`, which takes a comma-separated list of config files.
+- Windows Terminal: copy `extras/windows-terminal/gruber-darker-renaissance.json`
+  into `%LOCALAPPDATA%\Microsoft\Windows Terminal\Fragments\gruber-darker-renaissance\`
+  and pick "Gruber Darker Renaissance" in the color schemes.
 
 ## Credits
 
