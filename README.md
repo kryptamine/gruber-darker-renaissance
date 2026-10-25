@@ -96,6 +96,8 @@ read best with a border: set `vim.o.winborder` or the plugin's own `border`.
 Themes for other tools, generated from the same palette, are in `extras/`.
 With lazy.nvim that is `~/.local/share/nvim/lazy/gruber-darker-renaissance/extras/`.
 
+- Alacritty: link `extras/alacritty/gruber-darker-renaissance.toml` somewhere and add
+  it to `general.import` in `alacritty.toml`.
 - fish: link `extras/fish/gruber-darker-renaissance.theme` into
   `~/.config/fish/themes/` and add `fish_config theme choose
   gruber-darker-renaissance` to `config.fish`.
