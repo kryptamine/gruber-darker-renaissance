@@ -56,6 +56,7 @@ M.defaults = {
 		neo_tree = true,
 		neogit = true,
 		noice = true,
+		notify = true,
 	},
 	on_colors = function() end,
 	on_highlights = function() end,
