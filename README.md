@@ -90,6 +90,7 @@ require("gruber-darker-renaissance").setup({
     snacks = true,
     telescope = true,
     todo_comments = true,
+    treesitter_context = true,
   },
   ---@param colors GruberDarkerRenaissanceColors
   on_colors = function(colors) end,
@@ -142,6 +143,7 @@ Highlights are included for
 [nvim-navic](https://github.com/SmiteshP/nvim-navic),
 [nvim-notify](https://github.com/rcarriga/nvim-notify),
 [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua),
+[nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context),
 [rainbow-delimiters.nvim](https://github.com/HiPhish/rainbow-delimiters.nvim),
 [render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim),
 [snacks.nvim](https://github.com/folke/snacks.nvim),
