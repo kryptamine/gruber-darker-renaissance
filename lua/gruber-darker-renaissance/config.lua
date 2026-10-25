@@ -39,6 +39,7 @@ M.defaults = {
 		blink = true,
 		cmp = true,
 		dap_ui = true,
+		dashboard = true,
 		fff = true,
 		fzf = true,
 		gitsigns = true,
