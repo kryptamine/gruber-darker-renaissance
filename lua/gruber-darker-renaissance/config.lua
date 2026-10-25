@@ -62,6 +62,7 @@ M.defaults = {
 		render_markdown = true,
 		snacks = true,
 		telescope = true,
+		todo_comments = true,
 	},
 	on_colors = function() end,
 	on_highlights = function() end,
