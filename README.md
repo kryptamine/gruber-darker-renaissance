@@ -82,6 +82,7 @@ require("gruber-darker-renaissance").setup({
     navic = true,
     neo_tree = true,
     neogit = true,
+    noice = true,
   },
   ---@param colors GruberDarkerRenaissanceColors
   on_colors = function(colors) end,
@@ -128,6 +129,7 @@ Highlights are included for
 [multicursor.nvim](https://github.com/jake-stewart/multicursor.nvim),
 [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim),
 [neogit](https://github.com/NeogitOrg/neogit),
+[noice.nvim](https://github.com/folke/noice.nvim),
 [nvim-cmp](https://github.com/hrsh7th/nvim-cmp),
 [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui),
 [nvim-navic](https://github.com/SmiteshP/nvim-navic) and
