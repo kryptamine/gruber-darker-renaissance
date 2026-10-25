@@ -16,6 +16,7 @@ lua/gruber-darker-renaissance/
   extras/       one renderer per tool, written to extras/ by make extras
   groups/       highlight groups, one module per area
     plugins/    one module per plugin integration
+lua/lualine/themes/  the lualine theme, built from the semantic colors
 extras/         generated themes for other tools, never edited by hand
 queries/        tree-sitter query extensions, only where a group cannot do it
 assets/         README images
