@@ -12,6 +12,7 @@ function M.get(c, opts)
 		Comment = { fg = s.comment, italic = opts.italic.comments },
 		SpecialComment = { fg = s.comment, bold = opts.bold },
 		Todo = { fg = c.black, bg = c.yellow },
+		Error = { fg = c.diag.error },
 
 		Constant = { fg = s.constant },
 		String = { fg = s.string, italic = opts.italic.strings },

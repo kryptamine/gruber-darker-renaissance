@@ -46,6 +46,7 @@ function M.get(c, opts)
 
 		ErrorMsg = { fg = c.fg1, bg = c.red },
 		WarningMsg = { fg = c.diag.warn },
+		OkMsg = { fg = c.diag.ok },
 		ModeMsg = { fg = c.fg1 },
 		MoreMsg = { fg = c.fg1 },
 		Question = { fg = c.niagara },

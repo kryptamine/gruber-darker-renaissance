@@ -33,7 +33,7 @@ local M = {}
 ---@field separator string
 ---@field cursor string
 ---@field syntax GruberDarkerRenaissanceSyntaxColors
----@field diag { error: string, warn: string, info: string, hint: string }
+---@field diag { error: string, warn: string, info: string, hint: string, ok: string }
 ---@field git { add: string, change: string, delete: string }
 ---@field diff { add: string, change: string, delete: string, text: string } Line backgrounds
 
@@ -84,6 +84,7 @@ function M.setup(opts)
 		warn = c.yellow,
 		info = c.niagara,
 		hint = c.quartz,
+		ok = c.green,
 	}
 
 	c.git = {
