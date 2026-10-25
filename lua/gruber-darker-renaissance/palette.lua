@@ -24,10 +24,13 @@ local M = {
 	-- Accents
 	red = "#e74e4e",
 	red_light = "#f26063",
+	red_muted = "#732727",
 	red_darker = "#2a1516",
 	green = "#8fd069",
+	green_muted = "#476834",
 	green_darker = "#1b2e12",
 	yellow = "#fbde55",
+	yellow_muted = "#7d6f2a",
 	yellow_dark = "#433b12",
 	yellow_darker = "#26230f",
 	brown = "#cc8c3c",
