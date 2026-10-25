@@ -38,6 +38,7 @@ M.plugins = {
 	"snacks",
 	"telescope",
 	"todo_comments",
+	"treesitter_context",
 }
 
 ---Collect all highlight groups
