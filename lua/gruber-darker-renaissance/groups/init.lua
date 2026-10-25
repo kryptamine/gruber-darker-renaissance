@@ -33,6 +33,7 @@ M.plugins = {
 	"noice",
 	"notify",
 	"nvim_tree",
+	"rainbow_delimiters",
 }
 
 ---Collect all highlight groups

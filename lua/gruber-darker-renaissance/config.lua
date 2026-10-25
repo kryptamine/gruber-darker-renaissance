@@ -58,6 +58,7 @@ M.defaults = {
 		noice = true,
 		notify = true,
 		nvim_tree = true,
+		rainbow_delimiters = true,
 	},
 	on_colors = function() end,
 	on_highlights = function() end,
