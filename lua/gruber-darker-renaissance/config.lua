@@ -45,6 +45,7 @@ M.defaults = {
 		fzf = true,
 		gitsigns = true,
 		illuminate = true,
+		indent_blankline = true,
 		leap = true,
 		mason = true,
 		mini_icons = true,
