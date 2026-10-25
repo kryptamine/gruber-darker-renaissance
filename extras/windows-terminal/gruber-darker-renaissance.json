@@ -1,0 +1,27 @@
+{
+  "schemes": [
+    {
+      "background": "#000000",
+      "black": "#1e1e1e",
+      "blue": "#9fb2d6",
+      "brightBlack": "#8c8c8c",
+      "brightBlue": "#bdd0f6",
+      "brightCyan": "#96a29c",
+      "brightGreen": "#8ac568",
+      "brightPurple": "#9e95c7",
+      "brightRed": "#f26063",
+      "brightWhite": "#ebebe6",
+      "brightYellow": "#efd45b",
+      "cursorColor": "#efd45b",
+      "cyan": "#96a29c",
+      "foreground": "#d2d2cc",
+      "green": "#8ac568",
+      "name": "Gruber Darker Renaissance",
+      "purple": "#9e95c7",
+      "red": "#d64c4b",
+      "selectionBackground": "#484848",
+      "white": "#d2d2cc",
+      "yellow": "#efd45b"
+    }
+  ]
+}
