@@ -44,6 +44,7 @@ M.defaults = {
 		flash = true,
 		fzf = true,
 		gitsigns = true,
+		illuminate = true,
 		leap = true,
 		mason = true,
 		mini_icons = true,
