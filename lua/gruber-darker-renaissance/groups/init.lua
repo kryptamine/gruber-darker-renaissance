@@ -40,6 +40,7 @@ M.plugins = {
 	"todo_comments",
 	"treesitter_context",
 	"trouble",
+	"which_key",
 }
 
 ---Collect all highlight groups
