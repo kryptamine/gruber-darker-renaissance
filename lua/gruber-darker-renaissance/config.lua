@@ -38,6 +38,7 @@ M.defaults = {
 	plugins = {
 		blink = true,
 		cmp = true,
+		dap_ui = true,
 		fff = true,
 		fzf = true,
 		gitsigns = true,
