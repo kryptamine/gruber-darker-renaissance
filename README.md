@@ -128,6 +128,9 @@ Themes for other tools, generated from the same palette. They live in
   `~/.config/ghostty/themes/` and set `theme = gruber-darker-renaissance`.
 - **herdr** — `extras/herdr/gruber-darker-renaissance.toml`: herdr cannot include
   a file, so paste or template it into `~/.config/herdr/config.toml`.
+- **kitty** — `extras/kitty/gruber-darker-renaissance.conf`: link it into
+  `~/.config/kitty/themes/` and run `kitten themes`, or `include` it from
+  `kitty.conf`.
 - **lazygit** — `extras/lazygit/gruber-darker-renaissance.yml`: add it to
   `LG_CONFIG_FILE`, which merges a comma-separated list of config files.
 
@@ -141,7 +144,7 @@ lua/gruber-darker-renaissance/
   palette.lua                   raw palette, the only place a hex value is written
   colors.lua                    semantic colors (ui, syntax, diag, git) built from the palette
   terminal.lua                  :terminal colors, shared with the terminal extras
-  extras/                       fish, ghostty, herdr, lazygit renderers
+  extras/                       fish, ghostty, herdr, kitty, lazygit renderers
   groups/
     init.lua                    collects groups, toggles plugins
     editor.lua                  UI (:h highlight-groups)
