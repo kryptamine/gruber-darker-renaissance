@@ -37,6 +37,7 @@ M.defaults = {
 	sidebars = { "qf", "help" },
 	plugins = {
 		blink = true,
+		cmp = true,
 		fff = true,
 		fzf = true,
 		gitsigns = true,

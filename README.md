@@ -64,6 +64,7 @@ require("gruber-darker-renaissance").setup({
   sidebars = { "qf", "help" }, -- filetypes with the darker sidebar background
   plugins = {
     blink = true,
+    cmp = true,
     fff = true,
     fzf = true,
     gitsigns = true,
@@ -108,8 +109,9 @@ Highlights are included for
 [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim),
 [leap.nvim](https://codeberg.org/andyg/leap.nvim),
 [mason.nvim](https://github.com/mason-org/mason.nvim),
-[mini.icons](https://github.com/nvim-mini/mini.icons) and
-[multicursor.nvim](https://github.com/jake-stewart/multicursor.nvim).
+[mini.icons](https://github.com/nvim-mini/mini.icons),
+[multicursor.nvim](https://github.com/jake-stewart/multicursor.nvim) and
+[nvim-cmp](https://github.com/hrsh7th/nvim-cmp).
 Turn one off with `plugins = { name = false }`.
 
 Floats and the completion menu share the editor's black background, so they

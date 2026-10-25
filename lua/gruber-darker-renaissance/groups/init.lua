@@ -12,6 +12,7 @@ M.base = {
 ---Plugin integrations, toggled with `opts.plugins`
 M.plugins = {
 	"blink",
+	"cmp",
 	"fff",
 	"fzf",
 	"gitsigns",
