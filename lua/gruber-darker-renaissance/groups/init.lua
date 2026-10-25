@@ -35,6 +35,7 @@ M.plugins = {
 	"nvim_tree",
 	"rainbow_delimiters",
 	"render_markdown",
+	"snacks",
 }
 
 ---Collect all highlight groups

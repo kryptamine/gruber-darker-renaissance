@@ -60,6 +60,7 @@ M.defaults = {
 		nvim_tree = true,
 		rainbow_delimiters = true,
 		render_markdown = true,
+		snacks = true,
 	},
 	on_colors = function() end,
 	on_highlights = function() end,
