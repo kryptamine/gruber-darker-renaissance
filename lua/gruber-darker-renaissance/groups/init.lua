@@ -16,6 +16,7 @@ M.plugins = {
 	"fzf",
 	"gitsigns",
 	"leap",
+	"mason",
 	"mini_icons",
 	"multicursor",
 }
