@@ -121,6 +121,9 @@ Themes for other tools, generated from the same palette. They live in
 `extras/` of this repository; with lazy.nvim that is
 `~/.local/share/nvim/lazy/gruber-darker-renaissance/extras/`.
 
+- **fish** — `extras/fish/gruber-darker-renaissance.theme`: link it into
+  `~/.config/fish/themes/` and add `fish_config theme choose
+  gruber-darker-renaissance` to `config.fish`.
 - **Ghostty** — `extras/ghostty/gruber-darker-renaissance`: link it into
   `~/.config/ghostty/themes/` and set `theme = gruber-darker-renaissance`.
 - **herdr** — `extras/herdr/gruber-darker-renaissance.toml`: herdr cannot include
@@ -138,7 +141,7 @@ lua/gruber-darker-renaissance/
   palette.lua                   raw palette, the only place a hex value is written
   colors.lua                    semantic colors (ui, syntax, diag, git) built from the palette
   terminal.lua                  :terminal colors, shared with the terminal extras
-  extras/                       ghostty, herdr, lazygit renderers
+  extras/                       fish, ghostty, herdr, lazygit renderers
   groups/
     init.lua                    collects groups, toggles plugins
     editor.lua                  UI (:h highlight-groups)

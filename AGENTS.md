@@ -99,7 +99,7 @@ make            # list every target
 make check      # fmt + lint + smoke   ← the gate before any commit
 make fmt        # stylua
 make smoke      # load the theme headless, fail on an unresolved link
-make extras     # regenerate extras/ (ghostty, herdr, lazygit) from the palette
+make extras     # regenerate extras/ (fish, ghostty, herdr, lazygit) from the palette
 ```
 
 Inside Neovim, `:ThemeReload` (defined in the user's config, not here) reloads
