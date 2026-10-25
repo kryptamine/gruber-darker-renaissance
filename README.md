@@ -91,6 +91,7 @@ require("gruber-darker-renaissance").setup({
     telescope = true,
     todo_comments = true,
     treesitter_context = true,
+    trouble = true,
   },
   ---@param colors GruberDarkerRenaissanceColors
   on_colors = function(colors) end,
@@ -148,7 +149,8 @@ Highlights are included for
 [render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim),
 [snacks.nvim](https://github.com/folke/snacks.nvim),
 [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim),
-[todo-comments.nvim](https://github.com/folke/todo-comments.nvim) and
+[todo-comments.nvim](https://github.com/folke/todo-comments.nvim),
+[trouble.nvim](https://github.com/folke/trouble.nvim) and
 [vim-illuminate](https://github.com/RRethy/vim-illuminate).
 Turn one off with `plugins = { name = false }`.
 

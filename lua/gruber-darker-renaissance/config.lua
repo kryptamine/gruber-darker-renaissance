@@ -64,6 +64,7 @@ M.defaults = {
 		telescope = true,
 		todo_comments = true,
 		treesitter_context = true,
+		trouble = true,
 	},
 	on_colors = function() end,
 	on_highlights = function() end,
