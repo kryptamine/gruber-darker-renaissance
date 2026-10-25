@@ -19,6 +19,7 @@ M.plugins = {
 	"flash",
 	"fzf",
 	"gitsigns",
+	"illuminate",
 	"leap",
 	"mason",
 	"mini_icons",
