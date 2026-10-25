@@ -32,6 +32,10 @@ function M.get(c, opts)
 		["@lsp.type.string"] = {},
 		["@lsp.type.variable"] = {},
 
+		-- gopls also marks the package name inside an import string;
+		-- tree-sitter already colors package identifiers
+		["@lsp.type.namespace.go"] = {},
+
 		["@lsp.mod.deprecated"] = { strikethrough = true },
 		["@lsp.typemod.function.defaultLibrary"] = "@function.builtin",
 		["@lsp.typemod.variable.defaultLibrary"] = "@variable.builtin",
