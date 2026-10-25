@@ -66,6 +66,7 @@ require("gruber-darker-renaissance").setup({
     blink = true,
     cmp = true,
     dap_ui = true,
+    dashboard = true,
     fff = true,
     fzf = true,
     gitsigns = true,
@@ -105,6 +106,7 @@ colors built from it (`c.syntax.*`, `c.diag.*`, `c.git.*`, `c.bg_float`); see
 
 Highlights are included for
 [blink.cmp](https://github.com/saghen/blink.cmp),
+[dashboard-nvim](https://github.com/nvimdev/dashboard-nvim),
 [fff.nvim](https://github.com/dmtrKovalenko/fff.nvim),
 [fzf-lua](https://github.com/ibhagwan/fzf-lua),
 [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim),

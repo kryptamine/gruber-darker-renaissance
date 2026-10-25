@@ -14,6 +14,7 @@ M.plugins = {
 	"blink",
 	"cmp",
 	"dap_ui",
+	"dashboard",
 	"fff",
 	"fzf",
 	"gitsigns",
