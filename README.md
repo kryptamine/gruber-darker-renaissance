@@ -1,17 +1,21 @@
 # gruber-darker-renaissance
 
-_A dark Neovim colorscheme_
+_A dark, minimal Neovim colorscheme in the spirit of gruber-darker_
 
-> **Note**
-> Work in progress
+Pure black background, near-white names, and one shade per hue: yellow for
+keywords, green for strings, niagara blue for functions, quartz for types and
+constants, and a warm ash gray for comments. Accents are balanced in lightness
+and saturation so no single color shouts.
+
+Requires Neovim 0.10 or newer. No dependencies and no build step.
 
 ## Installation
 
-### Lazy
+### [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ```lua
 {
-  dir = "~/Work/gruber-darker-renaissance",
+  "kryptamine/gruber-darker-renaissance",
   lazy = false,
   priority = 1000,
   config = function()
@@ -20,6 +24,16 @@ _A dark Neovim colorscheme_
   end,
 }
 ```
+
+### Without a plugin manager
+
+```lua
+vim.pack.add({ "https://github.com/kryptamine/gruber-darker-renaissance" })
+vim.cmd.colorscheme("gruber-darker-renaissance")
+```
+
+`vim.pack` needs Neovim 0.12; on older versions clone the repository into a
+`pack/*/start/` directory on your `packpath`.
 
 ## Configuration
 
@@ -77,9 +91,31 @@ require("gruber-darker-renaissance").setup({
 })
 ```
 
+`c` holds the raw palette (`c.yellow`, `c.niagara`, `c.ash`) and the semantic
+colors built from it (`c.syntax.*`, `c.diag.*`, `c.git.*`, `c.bg_float`); see
+[palette.lua](lua/gruber-darker-renaissance/palette.lua) and
+[colors.lua](lua/gruber-darker-renaissance/colors.lua).
+
+### Plugins
+
+Highlights are included for
+[blink.cmp](https://github.com/saghen/blink.cmp),
+[fff.nvim](https://github.com/dmtrKovalenko/fff.nvim),
+[fzf-lua](https://github.com/ibhagwan/fzf-lua),
+[gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim),
+[leap.nvim](https://codeberg.org/andyg/leap.nvim),
+[mini.icons](https://github.com/nvim-mini/mini.icons) and
+[multicursor.nvim](https://github.com/jake-stewart/multicursor.nvim).
+Turn one off with `plugins = { name = false }`.
+
+Floats and the completion menu share the editor's black background, so they
+read best with a border: set `vim.o.winborder` or the plugin's own `border`.
+
 ## Extras
 
-Themes for other tools, generated from the same palette by `make extras`:
+Themes for other tools, generated from the same palette. They live in
+`extras/` of this repository; with lazy.nvim that is
+`~/.local/share/nvim/lazy/gruber-darker-renaissance/extras/`.
 
 - **Ghostty** — `extras/ghostty/gruber-darker-renaissance`: link it into
   `~/.config/ghostty/themes/` and set `theme = gruber-darker-renaissance`.
@@ -95,9 +131,9 @@ colors/gruber-darker-renaissance.lua  entry point for :colorscheme
 lua/gruber-darker-renaissance/
   init.lua                      setup() / load()
   config.lua                    options and defaults
-  palette.lua                   raw palette
+  palette.lua                   raw palette, the only place a hex value is written
   colors.lua                    semantic colors (ui, syntax, diag, git) built from the palette
-  terminal.lua                  :terminal colors
+  terminal.lua                  :terminal colors, shared with the terminal extras
   extras/                       ghostty, herdr, lazygit renderers
   groups/
     init.lua                    collects groups, toggles plugins
@@ -114,8 +150,12 @@ extras/                         generated themes, see Extras
 ## Development
 
 ```sh
-make check  # stylua + a headless load that fails on an unresolved link
+make check   # stylua, a headless load that fails on an unresolved link, extras
+make extras  # regenerate extras/ from the palette
 ```
+
+To work on the theme from a local clone, point lazy.nvim at it with
+`dir = "~/path/to/gruber-darker-renaissance"` instead of the repository name.
 
 Contributor rules are in [AGENTS.md](AGENTS.md).
 
