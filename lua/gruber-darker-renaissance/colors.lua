@@ -24,6 +24,7 @@ local M = {}
 ---@field bg_float string
 ---@field bg_popup string
 ---@field bg_highlight string
+---@field bg_dim string A shade off black, for a region set apart from the buffer
 ---@field bg_visual string
 ---@field bg_statusline string
 ---@field bg_match string
@@ -51,6 +52,7 @@ function M.setup(opts)
 	c.bg_float = c.bg
 	c.bg_popup = c.bg
 	c.bg_highlight = c.bg1
+	c.bg_dim = c.bg_alt
 	c.bg_visual = c.bg2
 	c.bg_statusline = c.bg1
 	c.bg_match = c.match

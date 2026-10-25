@@ -29,6 +29,7 @@ M.plugins = {
 	"multicursor",
 	"navic",
 	"neo_tree",
+	"neogit",
 }
 
 ---Collect all highlight groups

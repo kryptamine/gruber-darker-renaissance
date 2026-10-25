@@ -54,6 +54,7 @@ M.defaults = {
 		multicursor = true,
 		navic = true,
 		neo_tree = true,
+		neogit = true,
 	},
 	on_colors = function() end,
 	on_highlights = function() end,
