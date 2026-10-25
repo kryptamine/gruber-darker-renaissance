@@ -49,6 +49,7 @@ M.defaults = {
 		lazy = true,
 		leap = true,
 		mason = true,
+		mini = true,
 		mini_icons = true,
 		multicursor = true,
 	},

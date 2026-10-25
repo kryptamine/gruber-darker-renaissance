@@ -76,6 +76,7 @@ require("gruber-darker-renaissance").setup({
     lazy = true,
     leap = true,
     mason = true,
+    mini = true,
     mini_icons = true,
     multicursor = true,
   },
@@ -120,6 +121,7 @@ Highlights are included for
 [leap.nvim](https://codeberg.org/andyg/leap.nvim),
 [mason.nvim](https://github.com/mason-org/mason.nvim),
 [mini.icons](https://github.com/nvim-mini/mini.icons),
+[mini.nvim](https://github.com/nvim-mini/mini.nvim),
 [multicursor.nvim](https://github.com/jake-stewart/multicursor.nvim),
 [nvim-cmp](https://github.com/hrsh7th/nvim-cmp),
 [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) and
