@@ -30,6 +30,7 @@ M.plugins = {
 	"navic",
 	"neo_tree",
 	"neogit",
+	"noice",
 }
 
 ---Collect all highlight groups
