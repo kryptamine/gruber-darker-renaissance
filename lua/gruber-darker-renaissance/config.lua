@@ -53,6 +53,7 @@ M.defaults = {
 		mini_icons = true,
 		multicursor = true,
 		navic = true,
+		neo_tree = true,
 	},
 	on_colors = function() end,
 	on_highlights = function() end,
