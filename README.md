@@ -169,6 +169,9 @@ Contributor rules are in [AGENTS.md](AGENTS.md).
 
 ## Credits
 
+Gruber Darker is a popular, high-contrast dark color scheme originally created
+for GNU Emacs by Jason Blevins (adapted from John Gruber’s BBEdit theme).
+
 These repositories were great knowledge sources and their
 inspiration helped immensely with the development of this plugin.
 
