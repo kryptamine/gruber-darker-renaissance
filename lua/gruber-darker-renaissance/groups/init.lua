@@ -20,6 +20,7 @@ M.plugins = {
 	"fzf",
 	"gitsigns",
 	"illuminate",
+	"indent_blankline",
 	"leap",
 	"mason",
 	"mini_icons",
