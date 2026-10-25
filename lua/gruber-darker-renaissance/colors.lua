@@ -35,6 +35,7 @@ local M = {}
 ---@field syntax GruberDarkerRenaissanceSyntaxColors
 ---@field diag { error: string, warn: string, info: string, hint: string, ok: string }
 ---@field git { add: string, change: string, delete: string }
+---@field git_staged { add: string, change: string, delete: string } Signs of staged hunks
 ---@field diff { add: string, change: string, delete: string, text: string } Line backgrounds
 
 ---Build semantic colors on top of the raw palette
@@ -91,6 +92,12 @@ function M.setup(opts)
 		add = c.green,
 		change = c.yellow,
 		delete = c.red,
+	}
+
+	c.git_staged = {
+		add = c.green_muted,
+		change = c.yellow_muted,
+		delete = c.red_muted,
 	}
 
 	c.diff = {
