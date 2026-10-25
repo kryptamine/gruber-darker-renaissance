@@ -27,6 +27,7 @@ M.plugins = {
 	"mini",
 	"mini_icons",
 	"multicursor",
+	"navic",
 }
 
 ---Collect all highlight groups

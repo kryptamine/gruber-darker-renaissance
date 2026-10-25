@@ -79,6 +79,7 @@ require("gruber-darker-renaissance").setup({
     mini = true,
     mini_icons = true,
     multicursor = true,
+    navic = true,
   },
   ---@param colors GruberDarkerRenaissanceColors
   on_colors = function(colors) end,
@@ -124,7 +125,8 @@ Highlights are included for
 [mini.nvim](https://github.com/nvim-mini/mini.nvim),
 [multicursor.nvim](https://github.com/jake-stewart/multicursor.nvim),
 [nvim-cmp](https://github.com/hrsh7th/nvim-cmp),
-[nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) and
+[nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui),
+[nvim-navic](https://github.com/SmiteshP/nvim-navic) and
 [vim-illuminate](https://github.com/RRethy/vim-illuminate).
 Turn one off with `plugins = { name = false }`.
 
