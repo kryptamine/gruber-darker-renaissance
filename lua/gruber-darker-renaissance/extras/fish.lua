@@ -44,9 +44,9 @@ fish_pager_color_description %s
 fish_pager_color_progress %s --background=%s
 fish_pager_color_selected_background --background=%s]]):format(
 		h(c.fg),
-		h(c.syntax.func),
-		h(c.syntax.keyword),
 		h(c.yellow),
+		h(c.syntax.keyword),
+		h(c.niagara),
 		h(c.quartz),
 		h(c.syntax.string),
 		h(c.syntax.punctuation),
