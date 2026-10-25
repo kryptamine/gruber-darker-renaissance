@@ -81,10 +81,9 @@ and never edited by hand.
 
 ## Group rule (mandatory)
 
-**A group exists only if something renders it.** A plugin integration lands
-only for a plugin in use, and covers only groups whose defaults do not already
-follow the theme — a plugin that links to `Directory` or `DiagnosticWarn`
-needs nothing. Delete an integration the moment its plugin goes.
+**A group exists only if something renders it.** An integration covers only
+the groups whose defaults do not already follow the theme — a plugin that
+links to `Directory` or `DiagnosticWarn` needs nothing.
 
 ## Comment rule (mandatory)
 
