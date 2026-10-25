@@ -156,6 +156,9 @@ Highlights are included for
 [which-key.nvim](https://github.com/folke/which-key.nvim).
 Turn one off with `plugins = { name = false }`.
 
+For [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim), set
+`options = { theme = "gruber-darker-renaissance" }`.
+
 Floats and the completion menu share the editor's black background, so they
 read best with a border: set `vim.o.winborder` or the plugin's own `border`.
 
@@ -194,6 +197,7 @@ lua/gruber-darker-renaissance/
     semantic_tokens.lua         LSP semantic tokens
     diagnostics.lua             vim.diagnostic
     plugins/                    one file per plugin
+lua/lualine/themes/             lualine theme
 queries/                        tree-sitter query extensions (;extends)
 extras/                         generated themes, see Extras
 assets/                         README images
