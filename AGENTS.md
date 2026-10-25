@@ -18,6 +18,7 @@ lua/gruber-darker-renaissance/
     plugins/    one module per plugin integration
 extras/         generated themes for other tools, never edited by hand
 queries/        tree-sitter query extensions, only where a group cannot do it
+assets/         README images
 scripts/        the headless smoke test and the extras generator
 ```
 

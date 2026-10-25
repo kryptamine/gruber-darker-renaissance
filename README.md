@@ -2,6 +2,8 @@
 
 _A dark, minimal Neovim colorscheme in the spirit of gruber-darker_
 
+![gruber-darker-renaissance](assets/screenshot.png)
+
 Pure black background, near-white names, and one shade per hue: yellow for
 keywords, green for strings, niagara blue for functions, quartz for types and
 constants, and a warm ash gray for comments. Accents are balanced in lightness
@@ -145,6 +147,7 @@ lua/gruber-darker-renaissance/
     plugins/                    one file per plugin
 queries/                        tree-sitter query extensions (;extends)
 extras/                         generated themes, see Extras
+assets/                         README images
 ```
 
 ## Development
