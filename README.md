@@ -84,6 +84,7 @@ require("gruber-darker-renaissance").setup({
     neogit = true,
     noice = true,
     notify = true,
+    nvim_tree = true,
   },
   ---@param colors GruberDarkerRenaissanceColors
   on_colors = function(colors) end,
@@ -134,7 +135,8 @@ Highlights are included for
 [nvim-cmp](https://github.com/hrsh7th/nvim-cmp),
 [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui),
 [nvim-navic](https://github.com/SmiteshP/nvim-navic),
-[nvim-notify](https://github.com/rcarriga/nvim-notify) and
+[nvim-notify](https://github.com/rcarriga/nvim-notify),
+[nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua) and
 [vim-illuminate](https://github.com/RRethy/vim-illuminate).
 Turn one off with `plugins = { name = false }`.
 
