@@ -32,6 +32,7 @@ M.plugins = {
 	"neogit",
 	"noice",
 	"notify",
+	"nvim_tree",
 }
 
 ---Collect all highlight groups

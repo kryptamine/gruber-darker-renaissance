@@ -57,6 +57,7 @@ M.defaults = {
 		neogit = true,
 		noice = true,
 		notify = true,
+		nvim_tree = true,
 	},
 	on_colors = function() end,
 	on_highlights = function() end,
