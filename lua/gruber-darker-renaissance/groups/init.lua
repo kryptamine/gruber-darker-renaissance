@@ -24,6 +24,7 @@ M.plugins = {
 	"lazy",
 	"leap",
 	"mason",
+	"mini",
 	"mini_icons",
 	"multicursor",
 }
