@@ -42,7 +42,6 @@ function M.get(c, opts)
 		["@function.builtin"] = "Function",
 		["@function.macro"] = "Macro",
 		["@function.method"] = "Function",
-		["@constructor"] = "Function",
 
 		-- Keywords
 		["@keyword"] = "Keyword",
@@ -62,6 +61,10 @@ function M.get(c, opts)
 		-- Types
 		["@type"] = "Type",
 		["@type.builtin"] = "Type",
+		["@constructor"] = "Type",
+		-- Lua captures table braces, Go any NewX or MakeX call
+		["@constructor.lua"] = "@punctuation.bracket",
+		["@constructor.go"] = "@function",
 
 		-- Identifiers
 		["@variable"] = "Identifier",
