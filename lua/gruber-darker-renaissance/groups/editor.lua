@@ -42,6 +42,8 @@ function M.get(c, opts)
 		Title = { fg = c.quartz },
 
 		VertSplit = { fg = c.fg1, bg = c.bg1 },
+		WinBar = { fg = c.fg1, bg = c.bg, bold = opts.bold },
+		WinBarNC = { fg = c.fg_muted, bg = c.bg },
 		WinSeparator = { fg = c.separator, bold = opts.bold },
 
 		ErrorMsg = { fg = c.fg1, bg = c.red },
