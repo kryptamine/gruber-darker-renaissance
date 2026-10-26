@@ -59,7 +59,6 @@ function M.get(c, opts)
 		-- Types
 		["@type"] = "Type",
 		["@type.builtin"] = "Type",
-		["@type.definition"] = "Typedef",
 
 		-- Identifiers
 		["@variable"] = "Identifier",
