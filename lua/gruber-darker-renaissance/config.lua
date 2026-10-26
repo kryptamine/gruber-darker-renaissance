@@ -9,7 +9,7 @@ local M = {}
 ---@field invert { signs: boolean, tabline: boolean, visual: boolean }
 ---@field undercurl boolean
 ---@field underline boolean
----@field transparent boolean Don't set background colors
+---@field transparent boolean Leave the window background to the terminal; floats stay opaque
 ---@field terminal_colors boolean Set `g:terminal_color_*` for `:terminal`
 ---@field sidebars string[] Filetypes rendered with the darker sidebar background
 ---@field plugins table<string, boolean> Plugin integrations, see `gruber-darker-renaissance.groups`
