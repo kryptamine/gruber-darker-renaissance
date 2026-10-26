@@ -53,6 +53,9 @@ function M.get(c, opts)
 		["@keyword.modifier"] = "StorageClass",
 		["@keyword.directive"] = "PreProc",
 		["@keyword.directive.define"] = "Define",
+		-- #include is a directive in C, unlike import in other languages
+		["@keyword.import.c"] = "PreProc",
+		["@keyword.import.cpp"] = "PreProc",
 		["@label"] = "Label",
 		["@attribute"] = "PreProc",
 
