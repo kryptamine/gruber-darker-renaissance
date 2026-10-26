@@ -60,7 +60,7 @@ require("gruber-darker-renaissance").setup({
   },
   undercurl = true,
   underline = true,
-  transparent = false, -- don't set background colors
+  transparent = false, -- leave the window background to the terminal; floats stay opaque
   terminal_colors = true, -- set `g:terminal_color_*`
   sidebars = { "qf", "help" }, -- filetypes with the darker sidebar background
   plugins = {}, -- every integration is on; set one to false, e.g. `snacks = false`

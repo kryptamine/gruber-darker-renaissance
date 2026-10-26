@@ -47,10 +47,11 @@ function M.setup(opts)
 	local c = vim.deepcopy(require("gruber-darker-renaissance.palette"))
 
 	-- UI
-	c.bg = opts.transparent and c.none or c.bg
-	c.bg_sidebar = opts.transparent and c.none or c.bg_alt
+	-- Floats stay opaque, so a borderless popup keeps its edge on a transparent terminal
 	c.bg_float = c.bg
 	c.bg_popup = c.bg
+	c.bg = opts.transparent and c.none or c.bg
+	c.bg_sidebar = opts.transparent and c.none or c.bg_alt
 	c.bg_highlight = c.bg1
 	c.bg_dim = c.bg_alt
 	c.bg_visual = c.bg2
