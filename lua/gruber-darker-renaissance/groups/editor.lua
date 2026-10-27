@@ -63,7 +63,7 @@ function M.get(c, opts)
 		QuickFixLine = { bg = c.bg_visual, bold = opts.bold },
 
 		Search = { fg = c.black, bg = c.niagara },
-		IncSearch = { fg = c.black, bg = c.yellow },
+		IncSearch = { fg = c.black, bg = c.fg1 },
 		CurSearch = "IncSearch",
 
 		SpellBad = { sp = c.red, undercurl = opts.undercurl },
