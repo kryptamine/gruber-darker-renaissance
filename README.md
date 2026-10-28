@@ -5,7 +5,7 @@ _A dark, minimal Neovim colorscheme based on gruber-darker_
 ![gruber-darker-renaissance](assets/screenshot.png)
 
 A pure black background with near-white names. Each hue has one shade: yellow
-keywords, green strings, niagara blue functions, quartz types and numbers,
+keywords, green strings, niagara blue functions, quartz types and constants,
 warm ash gray comments. The accents share a lightness and saturation range, so
 none of them stands out over the others.
 
