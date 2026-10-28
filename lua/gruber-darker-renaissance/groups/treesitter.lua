@@ -72,8 +72,7 @@ function M.get(c, opts)
 		["@variable.parameter"] = "Identifier",
 		["@variable.member"] = { fg = s.field },
 		["@property"] = { fg = s.property },
-		-- A constant name reads like a variable, so it stands apart from its value
-		["@constant"] = "Identifier",
+		["@constant"] = "Constant",
 		["@constant.builtin"] = { fg = s.builtin },
 		["@constant.macro"] = "Define",
 		["@module"] = "Type",
