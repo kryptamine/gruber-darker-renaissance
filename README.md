@@ -109,6 +109,8 @@ With lazy.nvim that is `~/.local/share/nvim/lazy/gruber-darker-renaissance/extra
   `extras/fzf/gruber-darker-renaissance.txt`.
 - Ghostty: link `extras/ghostty/gruber-darker-renaissance` into
   `~/.config/ghostty/themes/` and set `theme = gruber-darker-renaissance`.
+- git: add `extras/git/gruber-darker-renaissance.gitconfig` to `include.path`
+  in `~/.gitconfig`. diff-so-fancy reads the same colors.
 - herdr: its config cannot include a file, so paste
   `extras/herdr/gruber-darker-renaissance.toml` into `~/.config/herdr/config.toml`.
 - kitty: link `extras/kitty/gruber-darker-renaissance.conf` into
