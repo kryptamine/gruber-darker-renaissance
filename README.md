@@ -98,6 +98,8 @@ With lazy.nvim that is `~/.local/share/nvim/lazy/gruber-darker-renaissance/extra
 
 - Alacritty: link `extras/alacritty/gruber-darker-renaissance.toml` somewhere and add
   it to `general.import` in `alacritty.toml`.
+- btop: link `extras/btop/gruber-darker-renaissance.theme` into
+  `~/.config/btop/themes/` and set `color_theme = "gruber-darker-renaissance"`.
 - fish: link `extras/fish/gruber-darker-renaissance.theme` into
   `~/.config/fish/themes/` and add `fish_config theme choose
   gruber-darker-renaissance` to `config.fish`.
