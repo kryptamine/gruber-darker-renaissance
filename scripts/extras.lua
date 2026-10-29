@@ -16,6 +16,7 @@ for _, name in ipairs({
 	"btop",
 	"fish",
 	"foot",
+	"fzf",
 	"ghostty",
 	"herdr",
 	"kitty",

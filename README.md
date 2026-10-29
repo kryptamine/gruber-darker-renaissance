@@ -105,6 +105,8 @@ With lazy.nvim that is `~/.local/share/nvim/lazy/gruber-darker-renaissance/extra
   gruber-darker-renaissance` to `config.fish`.
 - foot (1.24+): add `include=` with the path to
   `extras/foot/gruber-darker-renaissance.ini` to `foot.ini`.
+- fzf (0.48+): point `FZF_DEFAULT_OPTS_FILE` at
+  `extras/fzf/gruber-darker-renaissance.txt`.
 - Ghostty: link `extras/ghostty/gruber-darker-renaissance` into
   `~/.config/ghostty/themes/` and set `theme = gruber-darker-renaissance`.
 - herdr: its config cannot include a file, so paste
