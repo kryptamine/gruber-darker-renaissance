@@ -38,6 +38,7 @@ function M.get(c, opts)
 
 		["@lsp.mod.deprecated"] = { strikethrough = true },
 		["@lsp.typemod.function.defaultLibrary"] = "@function.builtin",
+		["@lsp.typemod.type.defaultLibrary"] = "@type.builtin",
 		["@lsp.typemod.variable.defaultLibrary"] = "@variable.builtin",
 	}
 end

@@ -60,7 +60,7 @@ function M.get(c, opts)
 
 		-- Types
 		["@type"] = "Type",
-		["@type.builtin"] = "Type",
+		["@type.builtin"] = { fg = s.builtin },
 		["@constructor"] = "Type",
 		-- Lua captures table braces, Go any NewX or MakeX call
 		["@constructor.lua"] = "@punctuation.bracket",
