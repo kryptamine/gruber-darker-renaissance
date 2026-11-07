@@ -103,6 +103,8 @@ With lazy.nvim that is `~/.local/share/nvim/lazy/gruber-darker-renaissance/extra
 - Claude Code: link `extras/claude-code/gruber-darker-renaissance.json` into
   `~/.claude/themes/` and set `"theme": "custom:gruber-darker-renaissance"` in
   `settings.json`.
+- claude-hud: merge `extras/claude-hud/gruber-darker-renaissance.json` into its
+  `config.json`.
 - delta: add `extras/delta/gruber-darker-renaissance.gitconfig` to `include.path`
   in `~/.gitconfig` and set `features = gruber-darker-renaissance` under `[delta]`.
 - eza: link `extras/eza/gruber-darker-renaissance.yml` to

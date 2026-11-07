@@ -1,0 +1,15 @@
+{
+  "colors": {
+    "context": "#8ac568",
+    "usage": "#9fb2d6",
+    "warning": "#efd45b",
+    "usageWarning": "#cc8c3c",
+    "critical": "#d64c4b",
+    "model": "#96a29c",
+    "project": "#9fb2d6",
+    "git": "#8c8c8c",
+    "gitBranch": "#9e95c7",
+    "label": "#8c8c8c",
+    "custom": "#cc8c3c"
+  }
+}
