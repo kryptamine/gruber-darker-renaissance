@@ -125,6 +125,9 @@ With lazy.nvim that is `~/.local/share/nvim/lazy/gruber-darker-renaissance/extra
 - starship: its config cannot include a file, so paste
   `extras/starship/gruber-darker-renaissance.toml` into `starship.toml` and set
   `palette = "gruber-darker-renaissance"`.
+- vivid: link `extras/vivid/gruber-darker-renaissance.yml` into
+  `~/.config/vivid/themes/` and set `LS_COLORS` from
+  `vivid generate gruber-darker-renaissance`.
 - Windows Terminal: copy `extras/windows-terminal/gruber-darker-renaissance.json`
   into `%LOCALAPPDATA%\Microsoft\Windows Terminal\Fragments\gruber-darker-renaissance\`
   and pick "Gruber Darker Renaissance" in the color schemes.
