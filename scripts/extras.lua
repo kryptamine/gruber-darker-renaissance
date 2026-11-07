@@ -25,6 +25,7 @@ for _, name in ipairs({
 	"kitty",
 	"lazygit",
 	"starship",
+	"vivid",
 	"windows-terminal",
 }) do
 	local extra = require("gruber-darker-renaissance.extras." .. name)
