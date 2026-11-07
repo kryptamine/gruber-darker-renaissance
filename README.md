@@ -122,6 +122,9 @@ With lazy.nvim that is `~/.local/share/nvim/lazy/gruber-darker-renaissance/extra
   `kitty.conf`.
 - lazygit: add `extras/lazygit/gruber-darker-renaissance.yml` to
   `LG_CONFIG_FILE`, which takes a comma-separated list of config files.
+- ripgrep: point `RIPGREP_CONFIG_PATH` at
+  `extras/ripgrep/gruber-darker-renaissance.conf`, or copy its lines into the
+  config file it already points at.
 - starship: its config cannot include a file, so paste
   `extras/starship/gruber-darker-renaissance.toml` into `starship.toml` and set
   `palette = "gruber-darker-renaissance"`.

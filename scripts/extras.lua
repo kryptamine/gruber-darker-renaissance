@@ -24,6 +24,7 @@ for _, name in ipairs({
 	"herdr",
 	"kitty",
 	"lazygit",
+	"ripgrep",
 	"starship",
 	"vivid",
 	"windows-terminal",
