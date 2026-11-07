@@ -6,6 +6,11 @@ cursor-color = #efd45b
 cursor-text = #1e1e1e
 selection-background = #484848
 selection-foreground = cell-foreground
+search-foreground = #000000
+search-background = #efd45b
+search-selected-foreground = #000000
+search-selected-background = #cc8c3c
+split-divider-color = #3a3a3a
 
 palette = 0=#1e1e1e
 palette = 1=#d64c4b

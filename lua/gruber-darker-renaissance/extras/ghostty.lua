@@ -14,6 +14,12 @@ function M.render(c, ansi)
 		"cursor-text = " .. c.bg1,
 		"selection-background = " .. c.bg_visual,
 		"selection-foreground = cell-foreground",
+		-- The stock search highlight is off-palette
+		"search-foreground = " .. c.black,
+		"search-background = " .. c.yellow,
+		"search-selected-foreground = " .. c.black,
+		"search-selected-background = " .. c.brown,
+		"split-divider-color = " .. c.border,
 		"",
 	}
 	for i, color in ipairs(ansi) do
