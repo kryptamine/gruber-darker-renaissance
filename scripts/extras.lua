@@ -22,6 +22,7 @@ for _, name in ipairs({
 	"ghostty",
 	"git",
 	"herdr",
+	"jq",
 	"kitty",
 	"lazygit",
 	"ripgrep",
