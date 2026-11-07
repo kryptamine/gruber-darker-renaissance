@@ -117,6 +117,7 @@ With lazy.nvim that is `~/.local/share/nvim/lazy/gruber-darker-renaissance/extra
   in `~/.gitconfig`. diff-so-fancy reads the same colors.
 - herdr: its config cannot include a file, so paste
   `extras/herdr/gruber-darker-renaissance.toml` into `~/.config/herdr/config.toml`.
+- jq: source `extras/jq/gruber-darker-renaissance.sh` from the shell config.
 - kitty: link `extras/kitty/gruber-darker-renaissance.conf` into
   `~/.config/kitty/themes/` and run `kitten themes`, or `include` it from
   `kitty.conf`.
